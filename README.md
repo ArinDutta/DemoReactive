@@ -1,6 +1,6 @@
 # This is a sample application that deals with Spring Web Flux and Reactive Redis Template. 
 
-The application used Redis as a database. It has four different API by which you read, write and delete the data from the redis.
+The application used Redis as a database. It has four different API by which you read, write, and delete the data from the Redis. We used Redis Standalone configuration. We try to explore the spring web flux.
 
 API to save employee data in Redis:- /demo/employee 
 
