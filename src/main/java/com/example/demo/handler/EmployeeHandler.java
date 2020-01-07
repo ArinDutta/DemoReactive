@@ -33,5 +33,9 @@ public class EmployeeHandler {
 	public Mono<ServerResponse> deleteEmployee(ServerRequest request) {
 		return ServerResponse.ok().body(employeeService.delete(request.pathVariable("empId")),Boolean.class);
 	}
+	
+	public Mono<ServerResponse> hello(ServerRequest request) {
+		return ServerResponse.ok().body("Hello",String.class);
+	}
 
 }
