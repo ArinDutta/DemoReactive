@@ -64,6 +64,7 @@
 				<version>1.9.77</version>
 				<configuration>
 					<version>1</version>
+					<projectId>demoreactive</projectId>
 				</configuration>
 			</plugin>
 		</plugins>
