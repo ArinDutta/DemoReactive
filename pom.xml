@@ -66,7 +66,7 @@
 				<artifactId>appengine-maven-plugin</artifactId>
 				<version>1.3.2</version>
 				<configuration>
-				    <project>demoreactive</project>
+				    <project>demoreactive-264421</project>
 				    <version>1</version>
 				</configuration>
 			</plugin>
