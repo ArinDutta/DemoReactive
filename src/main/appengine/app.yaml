@@ -14,7 +14,6 @@ readiness_check:
   success_threshold: 2
   app_start_timeout_sec: 720
 automatic_scaling:
-  cool_down_period: 120s
   min_num_instances: 1
   max_num_instances: 2    
 handlers:
