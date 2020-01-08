@@ -12,10 +12,10 @@ readiness_check:
   timeout_sec: 10
   failure_threshold: 3
   success_threshold: 1
-  app_start_timeout_sec: 100
+  app_start_timeout_sec: 780
 automatic_scaling:
   min_num_instances: 1
-  max_num_instances: 2    
+  max_num_instances: 1    
 handlers:
   - url: /.*
     script: this field is required, but ignored
