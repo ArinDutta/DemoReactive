@@ -2,17 +2,17 @@ runtime: java
 env: flex
 liveness_check:
   path: "/actuator/info"
-  check_interval_sec: 30
+  check_interval_sec: 60
   timeout_sec: 4
   failure_threshold: 2
   success_threshold: 2
 readiness_check:
   path: "/actuator/info"
-  check_interval_sec: 30
+  check_interval_sec: 60
   timeout_sec: 10
-  failure_threshold: 2
-  success_threshold: 2
-  app_start_timeout_sec: 720
+  failure_threshold: 3
+  success_threshold: 1
+  app_start_timeout_sec: 100
 automatic_scaling:
   min_num_instances: 1
   max_num_instances: 2    
