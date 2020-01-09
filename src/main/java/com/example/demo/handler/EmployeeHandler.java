@@ -35,7 +35,7 @@ public class EmployeeHandler {
 	}
 	
 	public Mono<ServerResponse> hello(ServerRequest request) {
-		return ServerResponse.ok().body("Hello",String.class);
+		return ServerResponse.ok().body(Mono.just("Hello Welcome to Google Cloud"),String.class);
 	}
 
 }
